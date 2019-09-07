@@ -1,39 +1,38 @@
-# python-tools
+## python-tools
+------
 
-#### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+#### 概述
+  项目是基于python,开发图书比价工具 Excel报表 微博第三方接入，来源于imooc的实战课程[《手把手教你把Python应用到实际开发 不再空谈语法》](https://coding.imooc.com/class/240.html)，自己动手实践并加以拓展，仅供自己学习使用。
+  项目的大致流程是构建开发环境，分析需求，设计构思，规划目录结构，开始编程。
 
-#### 软件架构
-软件架构说明
+#### 技术栈
+  - [x] `python3+`
+  - [x] `Flask1.0.2`
+  - [x] `MySQL`
 
+#### 项目思路
+  ![项目思路](http://qiniu.youbego.top/section2-1.png)
 
-#### 安装教程
+#### 知识点
+  - Python字符串高级用法
+  - With语法
+  - 值传递VS引用传递
+  - 异常处理
+  - 面向对象编程
+  - HTML、Xpath爬虫相关知识
 
-1. xxxx
-2. xxxx
-3. xxxx
+#### 笔记
+  > 项目里note.md
 
-#### 使用说明
+#### 效果
 
-1. xxxx
-2. xxxx
-3. xxxx
+#### 构建
 
-#### 参与贡献
+``` bash
+# install dependencies
+pipenv install
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+```
 
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 总结
+  项目难度2星，主要是对基础知识的掌握。共勉~
